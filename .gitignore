@@ -1,6 +1,6 @@
 *.auto.tfvars
+*_rsa
 *_rsa.*
-*.rsa
 *.iml
 .terraform
 .idea
