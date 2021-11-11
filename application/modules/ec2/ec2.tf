@@ -59,7 +59,7 @@ resource "aws_security_group" "my_ssh_security_group" {
 }
 
 resource "aws_security_group" "my_http_security_group" {
-  name        = "my-instance-security-group"
+  name        = "my-http-security-group"
   description = "Allow HTTP inbound traffic"
   vpc_id      = var.vpc_id
 
